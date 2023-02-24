@@ -1,0 +1,51 @@
+.container{
+  border-radius: 1rem;
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: center;
+  padding: 1rem;
+}
+.container:hover{
+    background-color: black;
+    cursor: n-resize;
+    color: white;
+    transition: all 1s ease;
+  border: none;
+}
+.attributes{
+  background-color: transparent;
+  margin: .5rem;
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+  color: white;
+}
+.title-name{
+  font-size: 20px;
+  color: white;
+}
+
+.name-character, .title-character{
+  font-weight: 400;
+}
+.title-character{
+  font-size: 16px;
+}
+.container > .attributes > span:last-child{
+  font-size: 20px;
+}
+
+.skin{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  color: lightgrey;
+  font-weight: 500;
+}
+span,h3,h4,h6{
+  background-color: transparent;
+}

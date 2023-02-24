@@ -1,0 +1,15 @@
+
+<div class="movie-font">
+  <div class="card-movie">
+    <movie-card *ngFor="let item of films" [title]="item.title"  [director]="item.director" class="movies"/>
+  </div>
+
+  <div *ngFor="let item of movie" class="vehicles">
+    <h2>
+      Name: {{item.nombre}}
+    </h2>
+    <p>
+      Name: {{item.categories}}
+    </p>
+  </div>
+</div>

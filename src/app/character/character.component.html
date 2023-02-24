@@ -1,0 +1,18 @@
+<article class="body-character">
+  <h1 class="title">
+    Character
+  </h1>
+  <div class="content">
+    <character-card *ngFor = "let item of people"
+                    [name]="item.name"
+                    [mass]="item.mass"
+                    [height]="item.height"
+                    [hair_color]="item.hair_color"
+                    [skin_color]="item.skin_color"
+                    [eye_color]="item.eye_color"
+                    [gender]="item.gender"
+    />
+  </div>
+</article>
+
+

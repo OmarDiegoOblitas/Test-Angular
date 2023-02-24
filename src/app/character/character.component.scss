@@ -1,0 +1,22 @@
+*{
+  padding: 1rem;
+  font-family: sans-serif;
+}
+.body-character{
+  background-image: url("../../assets/font-character.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.title{
+  text-align: center;
+  background-color: transparent;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  background-color: transparent;
+
+}
+character-card{
+  background-color: transparent;
+}
